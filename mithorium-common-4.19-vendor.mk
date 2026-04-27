@@ -396,6 +396,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mithorium-common-4.19/proprietary/system_ext/lib64/vendor.qti.latency@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.latency@2.1.so
 
 PRODUCT_PACKAGES += \
+    EuiccGoogle
+
+PRODUCT_PACKAGES += \
     DeviceInfo \
     DynamicDDSService \
     NetworkSetting \
