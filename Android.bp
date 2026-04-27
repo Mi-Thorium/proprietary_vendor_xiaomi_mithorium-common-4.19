@@ -7362,3 +7362,14 @@ cc_prebuilt_binary {
 	soc_specific: true,
 }
 
+android_app_import {
+    name: "EuiccGoogle",
+    owner: "xiaomi",
+    apk: "proprietary/system/priv-app/EuiccGoogle/EuiccGoogle.apk",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+}
